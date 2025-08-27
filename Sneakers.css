@@ -26,3 +26,7 @@ color: blueviolet;
   transition: transform 0.3s ease;
 }
 
+#name-aeroflex {
+  font-size: 30px;
+}
+
