@@ -53,4 +53,67 @@ p {
     width: 150px;
 }
 
+#Vortex {
+  width: 160px;
+  height: 145px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  
+}
+
+#Vortex:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#Vortex {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+}
+
+#NebulaKicks {
+  width: 160px;
+  height: 145px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  
+}
+
+#NebulaKicks:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#NebulaKicks {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+}
+
+
+#name-echostep {
+  font-size: 30px;
+}
+
+
+#name-aeroflex {
+  font-size: 30px;
+}
+
+#name-Vortex {
+    font-size: 30px;
+}
+
+#name-NebulaKicks {
+    font-size: 30px;
+}
+
+#name-Vortex {
+    font-size: 30px;
+}
 
