@@ -1,33 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-  <title>Sneaky Sneakers</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="Sneakers.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startsida</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Egen CSS -->
+  <link rel="stylesheet" href="produkter.css">
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>Välkommen till Sneaky Sneakers</h1>
-  <p>Sneaky Sneakers, För dig som smyger med stil.</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3 id="name-anställda">Anställda/Kontakt</h3>
-      <a id="Kontakt" href="Kontakt.html">Anställda</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mitt Företag</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Start</a></li>
+          <li class="nav-item"><a class="nav-link" href="produkter.html">Produkter</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3 id="name-produkter">Produkter</h3>
-      <a id="produkter" href="produkter.html">Produkter</a>
-    </div>
-  </div>
-</div>
+  </nav>
 
+  <!-- Hero Sektion -->
+  <header class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Välkommen till vår butik</h2>
+      <p>Här hittar du våra senaste och mest populära produkter</p>
+      <a href="produkter.html" class="btn btn-primary btn-lg mt-3">Se våra produkter</a>
+    </div>
+  </header>
+
+  <!-- Sektion med exempelprodukter -->
+  <section class="container my-5">
+    <div class="row text-center">
+      <div class="col-md-3 mb-4">
+        <img src="Images/Echostep.png" alt="EchoStep" id="echostep">
+        <p id="name-echostep">EchoStep</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="Images/Areoflex.png" alt="AeroFlex" id="aeroflex">
+        <p id="name-aeroflex">AeroFlex</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="Images/VortexGlide.png" alt="Vortex" id="Vortex">
+        <p id="name-Vortex">Vortex</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="Images/NebulaKicks.png"Nebula Kicks" id="NebulaKicks">
+        <p id="name-NebulaKicks">NebulaKicks</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2025 Mitt Företag. Alla rättigheter förbehållna.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
